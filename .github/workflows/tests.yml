@@ -303,6 +303,8 @@ jobs:
           # `std` support still in progress. Can be moved up with the other
           # apple targets after https://github.com/rust-lang/rust/pull/103503
           aarch64-apple-tvos,
+          # `std` support being commited, see https://github.com/rust-lang/rust/pull/116527
+          i686-unknown-hurd-gnu,
         ]
         include:
           # Supported tier 3 targets with libstd support
